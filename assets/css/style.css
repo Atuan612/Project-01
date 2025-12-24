@@ -34,7 +34,14 @@ a{
     font-weight: 500;
 }
 /* ======================= Header ========================== */
-.header{
+.fixed-header {
+    padding-top: 26px;
+    background: #E6F0FF;
+    position: sticky;
+    top: -26px;
+    z-index: 1;
+}
+.hero-wrap{
     position: relative;
     background: #E6F0FF;
     height: 100vh;
@@ -42,7 +49,7 @@ a{
 .navbar{
     display: flex;
     align-items: center;
-    padding-top: 50px;
+    padding: 12px 0;
 }
 
 .navbar ul{
